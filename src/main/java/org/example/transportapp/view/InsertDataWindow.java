@@ -34,11 +34,11 @@ public class InsertDataWindow extends Application {
     private void showInputWindow(Stage primaryStage) {
         Stage inputStage = new Stage();
 
-        Label titleLabel = new Label("Enter the dimensions for your county map");
+        Label titleLabel = new Label("Enter the dimensions for your country map");
         titleLabel.getStyleClass().add("subtitle-label");
 
         TextField rowsField = new TextField();
-        rowsField.setPromptText("Number of columns (n)");
+        rowsField.setPromptText("Number of rows (n)");
         rowsField.getStyleClass().add("input-field");
 
         TextField colsField = new TextField();
